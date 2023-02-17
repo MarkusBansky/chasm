@@ -11,6 +11,13 @@ Library is extremely fast and simple, id does not have any other dependencies an
 
 Test coverage is always kept at `> 99%`.
 
+## Dev requirements
+
+This project is targeting the `Node v18 LTS`. Target for `ts` is set to `ES3` to support all browsers with lower versions.
+
+- Have `node` installed with at least `v18+`
+- Install required packages with `npm ci`
+
 ## Installation
 
 Installation is simple:
