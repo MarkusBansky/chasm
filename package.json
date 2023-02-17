@@ -1,6 +1,6 @@
 {
   "name": "nlp-chasm",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Split your long text into paragraphs using NLP attributes. Chasm allows you to easily split your long text with just a suingle command, all you need are a few language attributes for each token. That's it!",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
