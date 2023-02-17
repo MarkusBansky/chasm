@@ -26,7 +26,7 @@ This project is targeting the `Node v18 LTS`. Target for `ts` is set to `ES3` to
 Installation is simple:
 
 ```bash
-npm i -s nlp-chasm
+npm i nlp-chasm
 ```
 
 ## Usage
