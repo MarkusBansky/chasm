@@ -10,6 +10,7 @@ into paragraphs, but if you dont know how to do it quickly and easily this tool 
 Chasm is easily extended within the project and can currently provide the following algorithms:
 
 - `cosine similarity`
+- more to come...
 
 Library is extremely fast and simple, id does not have any other dependencies and is easy to install, use and extend when needed.
 
