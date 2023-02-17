@@ -9,6 +9,7 @@
     "sourceMap": true,
     "module": "amd",
     "target": "es3",
+    "esModuleInterop": true,
     "allowJs": true,
     "moduleResolution": "node"
   },
