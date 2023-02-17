@@ -1,18 +1,13 @@
 {
   "compilerOptions": {
-    "rootDir": "./src",
-    "outFile": "./dist/index.js",
-    "declaration": true,
-    "noImplicitAny": true,
-    "removeComments": true,
-    "preserveConstEnums": true,
-    "sourceMap": true,
-    "module": "amd",
+    "outDir": "./lib",
     "target": "es3",
-    "esModuleInterop": true,
-    "allowJs": true,
-    "moduleResolution": "node"
+    "module": "commonjs",
+    "declaration": true,
+    "strict": true,
+    "sourceMap": true,
+    "noImplicitAny": true
   },
-  "include": ["src/**/*"],
+  "include": ["src"],
   "exclude": ["node_modules", "**/*.test.ts"]
 }

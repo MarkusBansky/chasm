@@ -1,5 +1,6 @@
 # 📄 Chasm – tiny, fast, paragraph!
 
+[![npm version](https://badge.fury.io/js/nlp-chasm.svg)](https://badge.fury.io/js/nlp-chasm)
 [![npm test & build](https://github.com/MarkusBansky/chasm/actions/workflows/nodejs.yaml/badge.svg?branch=main)](https://github.com/MarkusBansky/chasm/actions/workflows/nodejs.yaml)
 
 Chasm is a very tiny and useful tool when you are processing raw sentences and would like to have a way to split those sentences

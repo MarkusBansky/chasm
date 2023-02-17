@@ -1,14 +1,14 @@
 {
   "name": "nlp-chasm",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Split your long text into paragraphs using NLP attributes. Chasm allows you to easily split your long text with just a suingle command, all you need are a few language attributes for each token. That's it!",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "files": [
-    "/dist"
+    "lib/**/*"
   ],
   "scripts": {
-    "build": "rm -rf dist && tsc",
+    "build": "rm -rf lib && tsc",
     "test": "jest --coverage",
     "prepare": "husky install"
   },
@@ -17,7 +17,9 @@
     "url": "git+https://github.com/MarkusBansky/chasm.git"
   },
   "keywords": [
-    "nlp"
+    "nlp",
+    "cosine",
+    "text"
   ],
   "author": "Markiian Benovskyi",
   "license": "GPL-3.0-only",
