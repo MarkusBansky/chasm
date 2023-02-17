@@ -2,9 +2,11 @@ name: Node.js CI
 
 on:
   push:
-    branches: [main]
+    branches:
+      - "*"
   pull_request:
-    branches: [main]
+    branches:
+      - "main"
 
 jobs:
   build:
@@ -23,3 +25,5 @@ jobs:
       - run: npm ci
       - run: npm run build
       - run: npm test
+      - name: Upload coverage reports to Codecov
+        uses: codecov/codecov-action@v3
