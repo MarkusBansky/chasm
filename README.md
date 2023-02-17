@@ -2,6 +2,7 @@
 
 [![npm version](https://badge.fury.io/js/nlp-chasm.svg)](https://badge.fury.io/js/nlp-chasm)
 [![npm test & build](https://github.com/MarkusBansky/chasm/actions/workflows/nodejs.yaml/badge.svg?branch=main)](https://github.com/MarkusBansky/chasm/actions/workflows/nodejs.yaml)
+[![codecov](https://codecov.io/gh/MarkusBansky/chasm/branch/main/graph/badge.svg?token=M1BGVWCQX8)](https://codecov.io/gh/MarkusBansky/chasm)
 
 Chasm is a very tiny and useful tool when you are processing raw sentences and would like to have a way to split those sentences
 into paragraphs, but if you dont know how to do it quickly and easily this tool can help you with that task!
