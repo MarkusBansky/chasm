@@ -34,6 +34,8 @@ npm i nlp-chasm
 
 You have access to all modules exported from the project, but in reality you probably need only one of them.
 
+### Basic usage
+
 Here is an example how to use the chasm library in your project:
 
 ```js
@@ -45,6 +47,86 @@ const paragraphs = chasm(sentences);
 
 // use your paragraphs later...
 ```
+
+Where the type of the `chasm` function is as follows:
+
+```js
+export type Chasm = (sentences: Sentence[], threshold?: number) => ChasmResult;
+```
+
+Your sentences must follow a specific structure which is defined in the types of this library. Here, below, you can see the
+structure you must use:
+
+```js
+export interface Token {
+  index: number;
+  token: string;
+}
+
+export interface Sentence {
+  index: number;
+  tokens: Token[];
+}
+```
+
+An example of this structure will look like this:
+
+```js
+[
+    {
+        index: 0,
+        tokens: [
+            { index: 0, "token1" },
+            { index: 1, "token2" },
+            { index: 2, "token3" },
+        ]
+    },
+    {
+        index: 1,
+        tokens: [
+            { index: 0, "token10" },
+            { index: 1, "token11" }
+        ]
+    }
+]
+```
+
+When you run the `chasm` method to split your sentences into paragraphs then you will receive a result of the following structure:
+
+```js
+[
+    [
+        {
+            index: 0,
+            tokens: [
+                { index: 0, "token1" },
+                { index: 1, "token2" },
+                { index: 2, "token3" },
+            ]
+        }
+    ],
+    [
+        {
+            index: 1,
+            tokens: [
+                { index: 0, "token10" },
+                { index: 1, "token11" }
+            ]
+        }
+    ]
+]
+```
+
+This is defined as the following:
+
+```js
+export type ChasmResult = Sentence[][];
+```
+
+### Advanced configuration
+
+Currently there is not much to configure, the common property which is optional is the `threshold?: number` property.
+This defines threshold for similarity between sentences. All values must be between `[0, 1]` for threshold.
 
 ##### Note
 
