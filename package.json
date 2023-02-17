@@ -1,0 +1,40 @@
+{
+  "name": "nlp-chasm",
+  "version": "1.0.0",
+  "description": "Split your long text into paragraphs using NLP attributes. Chasm allows you to easily split your long text with just a suingle command, all you need are a few language attributes for each token. That's it!",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "build": "rm -rf dist && tsc",
+    "test": "jest --coverage",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarkusBansky/chasm.git"
+  },
+  "keywords": [
+    "nlp"
+  ],
+  "author": "Markiian Benovskyi",
+  "license": "GPL-3.0-only",
+  "bugs": {
+    "url": "https://github.com/MarkusBansky/chasm/issues"
+  },
+  "homepage": "https://github.com/MarkusBansky/chasm#readme",
+  "devDependencies": {
+    "@types/jest": "^29.4.0",
+    "husky": "^8.0.3",
+    "jest": "^29.4.3",
+    "lint-staged": "^13.1.2",
+    "prettier": "2.8.4",
+    "ts-jest": "^29.0.5",
+    "typescript": "^4.9.5"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
+  }
+}
