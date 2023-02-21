@@ -3,6 +3,11 @@
 [![npm version](https://badge.fury.io/js/nlp-chasm.svg)](https://badge.fury.io/js/nlp-chasm)
 [![npm test & build](https://github.com/MarkusBansky/chasm/actions/workflows/nodejs.yaml/badge.svg?branch=main)](https://github.com/MarkusBansky/chasm/actions/workflows/nodejs.yaml)
 [![codecov](https://codecov.io/gh/MarkusBansky/chasm/branch/main/graph/badge.svg?token=M1BGVWCQX8)](https://codecov.io/gh/MarkusBansky/chasm)
+[![Known Vulnerabilities](https://snyk.io/test/github/MarkusBansky/chasm/badge.svg)](https://snyk.io/test/github/MarkusBansky/chasm)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=MarkusBansky_chasm&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=MarkusBansky_chasm)
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=MarkusBansky_chasm&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=MarkusBansky_chasm)
+
+[![SonarCloud](https://sonarcloud.io/images/project_badges/sonarcloud-black.svg)](https://sonarcloud.io/summary/new_code?id=MarkusBansky_chasm)
 
 Chasm is a very tiny and useful tool when you are processing raw sentences and would like to have a way to split those sentences
 into paragraphs, but if you dont know how to do it quickly and easily this tool can help you with that task!
